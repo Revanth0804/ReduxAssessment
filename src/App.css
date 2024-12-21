@@ -1,0 +1,31 @@
+/* index.css */
+
+/* Light Theme Styles */
+.app.light {
+  background-color: white;
+  color: black;
+}
+
+.app.light button {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.app.light h1 {
+  color: black;
+}
+
+/* Dark Theme Styles */
+.app.dark {
+  background-color: #333;
+  color: white;
+}
+
+.app.dark button {
+  background-color: #555;
+  color: white;
+}
+
+.app.dark h1 {
+  color: white;
+}

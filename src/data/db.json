@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product A",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "price": 30
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "status": "Delivered"
+    },
+    {
+      "id": "rt1gohw9m",
+      "status": "Shipped",
+      "items": [
+        {
+          "id": 1,
+          "name": "Product A",
+          "price": 50
+        },
+        {
+          "id": 2,
+          "name": "Product B",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "6l2idasgx",
+      "status": "Pending",
+      "items": [
+        {
+          "id": 2,
+          "name": "Product B",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "tbw4bt0vm",
+      "status": "Pending",
+      "items": [
+        {
+          "id": 1,
+          "name": "Product A",
+          "price": 50
+        }
+      ]
+    }
+  ]
+}
